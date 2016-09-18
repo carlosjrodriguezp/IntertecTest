@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/IntertecTest">
+    <Resource
+        type="javax.sql.DataSource"
+        auth="Container"
+        name="jdbc/intertec"
+        driverClassName="org.apache.derby.jdbc.ClientDriver"
+        url="jdbc:derby://localhost:1527/username"
+        username="username"
+        password="password"
+
+        maxActive="100"
+        maxIdle="30"
+        maxWait="10000"
+    />
+</Context>
